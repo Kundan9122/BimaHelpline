@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+
+
+    <item
+        android:id="@+id/action_schedule"
+        android:title="Schedule Time"
+        android:orderInCategory="100"
+
+        app:showAsAction="never"
+        />
+
+
+    <item
+        android:id="@+id/action_call"
+        android:icon="@android:drawable/ic_menu_call"
+        android:orderInCategory="100"
+        android:title="@string/action_call"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_logout"
+        android:orderInCategory="100"
+        android:title="@string/action_log_out"
+        app:showAsAction="never"
+        />
+<!--    <item-->
+<!--        android:id="@+id/action_arrival"-->
+<!--        android:orderInCategory="100"-->
+<!--        android:title="@string/action_cart"-->
+<!--        app:showAsAction="always"-->
+<!--        android:icon="@drawable/newarrival"-->
+<!--        />-->
+    <item
+        android:id="@+id/action_cart"
+        android:icon="@drawable/watsup"
+        android:orderInCategory="100"
+        android:title="@string/action_cart"
+
+        app:showAsAction="always"
+
+
+        />
+
+
+</menu>
